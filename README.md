@@ -45,16 +45,13 @@ This project demonstrates the integration of real-time object detection in an au
 
 ---
 
-![Picture2](https://github.com/user-attachments/assets/d692c9be-764e-4456-8234-7146e282979c)
-
-![Picture1](https://github.com/user-attachments/assets/799b4fba-6d57-4366-980c-4ea10fc45941)
-
 ## Screenshots
 
 ### Detection Visualization
 
-![Detection Visualization 1](https://github.com/user-attachments/assets/647e6ea6-7509-4219-9ee3-42c379981ae5)
+![Picture2](https://github.com/user-attachments/assets/d692c9be-764e-4456-8234-7146e282979c)
 
-![Detection Visualization 2](https://github.com/user-attachments/assets/c8567970-202d-49fd-a1dc-1b62f05c7922)
+![Picture1](https://github.com/user-attachments/assets/799b4fba-6d57-4366-980c-4ea10fc45941)
+
 
 ---
