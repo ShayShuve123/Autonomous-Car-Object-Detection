@@ -1,5 +1,3 @@
-# Autonomous-Car-Object-Detection
-
 # Autonomous Vehicle Object Detection Using YOLOv8 and CARLA Simulator
 
 ## Overview
@@ -14,6 +12,41 @@ This project demonstrates the integration of real-time object detection in an au
 - **RGB Camera Processing**: Captures and processes live feed from an onboard camera.
 
 ---
+
+## Project Architecture
+# Components
+1.CARLA Simulator:
+
+Simulates a city environment (Town02) with pedestrians, vehicles, and traffic lights.
+Provides sensor data (camera feed) for processing.
+YOLOv8 Integration:
+
+Processes images from the RGB camera.
+Identifies objects such as pedestrians and traffic lights with confidence thresholds.
+Autonomous Vehicle Behavior:
+
+The vehicle operates on autopilot.
+When a pedestrian is detected, the Traffic Manager adjusts the speed.
+Workflow
+The CARLA simulator initializes the urban environment and spawns vehicles and pedestrians.
+The onboard RGB camera captures live video.
+Images are processed with YOLOv8 to detect objects.
+If a pedestrian is detected:
+The Traffic Manager reduces the vehicle's speed by 50% for 5 seconds.
+The system logs detection details and overlays bounding boxes on detected objects.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Getting Started
 
