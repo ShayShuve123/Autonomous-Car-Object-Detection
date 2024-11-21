@@ -1,4 +1,4 @@
-# Autonomous Vehicle Object Detection Using YOLOv8 and CARLA Simulator
+# Autonomous Vehicle Object Detection Using YOLOv8 and CARLA 
 
 ## Overview
 This project demonstrates the integration of real-time object detection in an autonomous vehicle using the CARLA simulator and the YOLOv8 model. The system identifies pedestrians and traffic lights in a dynamic urban environment and modifies vehicle behavior accordingly.
