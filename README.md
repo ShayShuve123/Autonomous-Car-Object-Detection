@@ -36,13 +36,18 @@ This project demonstrates the integration of real-time object detection in an au
    - The Traffic Manager reduces the vehicle's speed by 50% for 5 seconds.
 5. The system logs detection details and overlays bounding boxes on detected objects.
 
+---
+
 ### Video Demonstration
 
 [![Watch the video demonstration](https://drive.google.com/thumbnail?id=1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE)](https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/view?usp=drive_link)
 
 
+---
+
 ## Screenshots
    **Detection Visualization***
+   
 ![image](https://github.com/user-attachments/assets/647e6ea6-7509-4219-9ee3-42c379981ae5)
 
 ![image](https://github.com/user-attachments/assets/c8567970-202d-49fd-a1dc-1b62f05c7922)
