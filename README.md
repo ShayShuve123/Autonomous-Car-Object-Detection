@@ -37,7 +37,7 @@ The Traffic Manager reduces the vehicle's speed by 50% for 5 seconds.
 The system logs detection details and overlays bounding boxes on detected objects.
 
 # Demonstration
-[gldfjldj](https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/view?usp=drive_link)
+[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/view?usp=drive_link)
 
 
 Screenshots
@@ -70,3 +70,22 @@ Before running this project, ensure the following libraries and tools are instal
    git clone https://github.com/yourusername/AutonomousCarDetection.git
    cd AutonomousCarDetection
 
+
+
+
+
+
+
+
+
+
+## Overview
+This project demonstrates the integration of real-time object detection in an autonomous vehicle using the CARLA simulator and the YOLOv8 model. The system identifies pedestrians and traffic lights in a dynamic urban environment and modifies vehicle behavior to emulate real-world scenarios. For example, when pedestrians are detected, the vehicle slows down, mimicking the behavior of human drivers in real life.
+
+---
+
+## Features
+- **CARLA Integration**: Simulates urban driving scenarios with realistic environments.
+- **YOLOv8 Object Detection**: Detects pedestrians, traffic lights, and other objects. To improve detection accuracy, only objects with a confidence level above 0.6 (on a scale of 0 to 1) are processed. This filtering ensures that the system reacts only to reliable detections.
+- **Real-Time Action**: Slows down the vehicle by 50% for 5 seconds when a pedestrian is detected, similar to how real-world vehicles respond to nearby pedestrians.
+- **RGB Camera Processing**: Captures and processes live feed from an onboard camera for continuous object detection.
