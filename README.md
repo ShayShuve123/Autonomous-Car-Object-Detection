@@ -1,47 +1,31 @@
 # Autonomous-Car-Object-Detection
 
-# Intelligent Pedestrian and Traffic Interaction in CARLA
+# Autonomous Vehicle Object Detection Using YOLOv8 and CARLA Simulator
 
-## Project Title
-"**Autonomous Driving in Dynamic Environments: Real-Time Pedestrian Detection and Response in CARLA**"
-
-## Description
-
-This project showcases the development of a **real-time autonomous driving system** using the CARLA simulator and advanced object detection with YOLOv8. The system equips a self-driving vehicle with the ability to **detect pedestrians and other objects** and dynamically adapt its behavior to ensure safety and compliance with road environments.
-
-Key features include:
-- **Pedestrian response system**: Reduces speed upon detecting a pedestrian.
-- **Dynamic visualization**: Real-time display of detected objects with bounding boxes.
-- **Smooth integration with CARLA Traffic Manager** for seamless autonomous navigation.
-
-This project highlights how **AI and simulation** can converge to create safer autonomous systems.
+## Overview
+This project demonstrates the integration of real-time object detection in an autonomous vehicle using the CARLA simulator and the YOLOv8 model. The system identifies pedestrians and traffic lights in a dynamic urban environment and modifies vehicle behavior accordingly.
 
 ---
 
 ## Features
-
-- **Advanced Object Detection**:
-  - Detects pedestrians, traffic lights, and other objects with high accuracy using YOLOv8.
-  - Confidence threshold filtering (≥ 60%) to minimize false positives.
-
-- **Dynamic Autonomous Behavior**:
-  - Slows down the vehicle by 50% for five seconds upon detecting a pedestrian, enhancing safety.
-  - Resumes normal speed automatically.
-
-- **Interactive Visual Feedback**:
-  - Displays detected objects directly in the simulation feed.
-
-- **Scalable Architecture**:
-  - Extensible for detecting additional objects or implementing other behaviors.
+- **CARLA Integration**: Simulates urban driving scenarios.
+- **YOLOv8 Object Detection**: Detects pedestrians and traffic lights with high accuracy.
+- **Real-Time Action**: Reduces vehicle speed by 50% for 5 seconds when a pedestrian is detected.
+- **RGB Camera Processing**: Captures and processes live feed from an onboard camera.
 
 ---
 
-## Setup Instructions
+## Getting Started
 
 ### Prerequisites
+Before running this project, ensure the following libraries and tools are installed:
+- [CARLA Simulator](https://carla.org)
+- [Ultralytics YOLOv8](https://docs.ultralytics.com/)
+- Python libraries: `opencv-python`, `numpy`, `math`, `time`
 
-1. Install [CARLA Simulator](https://carla.org/) on your local machine.
-2. Ensure you have **Python 3.8 or above** installed.
-3. Install required libraries:
+### Installation
+1. Clone the repository:
    ```bash
-   pip install carla opencv-python ultralytics numpy math
+   git clone https://github.com/yourusername/AutonomousCarDetection.git
+   cd AutonomousCarDetection
+
