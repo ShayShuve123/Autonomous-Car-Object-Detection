@@ -38,7 +38,7 @@ The system logs detection details and overlays bounding boxes on detected object
 
 # Demonstration
 
-[![Watch the video](https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/view?usp=drive_link)
+[![Watch the video](https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/view?usp=drive_link)]
 
 
 Screenshots
