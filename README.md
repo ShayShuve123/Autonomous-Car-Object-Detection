@@ -14,7 +14,7 @@ This project demonstrates the integration of real-time object detection in an au
 ---
 
 ## Project Architecture
-   # Components
+    Components
    1.CARLA Simulator:
 
 Simulates a city environment (Town02) with pedestrians, vehicles, and traffic lights.
@@ -27,7 +27,8 @@ Autonomous Vehicle Behavior:
 
 The vehicle operates on autopilot.
 When a pedestrian is detected, the Traffic Manager adjusts the speed.
-Workflow
+
+## Workflow
 The CARLA simulator initializes the urban environment and spawns vehicles and pedestrians.
 The onboard RGB camera captures live video.
 Images are processed with YOLOv8 to detect objects.
@@ -35,16 +36,14 @@ If a pedestrian is detected:
 The Traffic Manager reduces the vehicle's speed by 50% for 5 seconds.
 The system logs detection details and overlays bounding boxes on detected objects.
 
-
-Workflow
-The CARLA simulator initializes the urban environment and spawns vehicles and pedestrians.
-The onboard RGB camera captures live video.
-Images are processed with YOLOv8 to detect objects.
-If a pedestrian is detected:
-The Traffic Manager reduces the vehicle's speed by 50% for 5 seconds.
-The system logs detection details and overlays bounding boxes on detected objects.
+Demonstration
+[](https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/view?usp=drive_link)
 
 
+Screenshots
+Detection Visualization
+
+Urban Driving Scene
 
 
 
@@ -54,6 +53,9 @@ The system logs detection details and overlays bounding boxes on detected object
 
 
 
+
+
+--------------------------------------------------------------------------------------------
 ## Getting Started
 
 ### Prerequisites
