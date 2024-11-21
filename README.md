@@ -38,9 +38,7 @@ This project demonstrates the integration of real-time object detection in an au
 
 ### Video Demonstration
 
-### Video Demonstration
-
-<iframe src="https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/preview" width="640" height="480" allow="autoplay"></iframe>
+[![Watch the video demonstration](https://drive.google.com/thumbnail?id=1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE)](https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/view?usp=drive_link)
 
 
 ## Screenshots
