@@ -13,11 +13,11 @@ This project demonstrates the integration of real-time object detection in an au
 
 ---
 
-## Project Architecture
-# Components
-   # 1.CARLA Simulator:
- -Simulates a city environment (Town02) with pedestrians, vehicles, and traffic lights.
--Provides sensor data (camera feed) for processing.
+# Project Architecture
+   Components
+    1.CARLA Simulator:
+   -Simulates a city environment (Town02) with pedestrians, vehicles, and traffic lights.
+   -Provides sensor data (camera feed) for processing.
 
 # 2.YOLOv8 Integration:
 
