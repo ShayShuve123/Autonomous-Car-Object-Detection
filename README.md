@@ -37,7 +37,8 @@ The Traffic Manager reduces the vehicle's speed by 50% for 5 seconds.
 The system logs detection details and overlays bounding boxes on detected objects.
 
 ### Video Demonstration
-[Watch the video demonstration on Google Drive](https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/view?usp=drive_link)
+
+[![Watch the game in action](https://drive.google.com/thumbnail?id=1hDyzmLHcLvUdbY_WbIBFBXrmECBR7FX7)](https://drive.google.com/file/d/1hDyzmLHcLvUdbY_WbIBFBXrmECBR7FX7/view?usp=sharing)
 
 
 Screenshots
