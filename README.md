@@ -36,16 +36,16 @@ If a pedestrian is detected:
 The Traffic Manager reduces the vehicle's speed by 50% for 5 seconds.
 The system logs detection details and overlays bounding boxes on detected objects.
 
-### Video Demonstration
+# Video Demonstration
 
-[![Watch the game in action](https://drive.google.com/file/d/1YoiyYKKcEb6YuYje_Ls3Pfg4JML29rqE/view?usp=drive_link).
+[![Watch the game in action]
 
-
-
-Screenshots
+# Screenshots
 Detection Visualization
+![image](https://github.com/user-attachments/assets/647e6ea6-7509-4219-9ee3-42c379981ae5)
 
-Urban Driving Scene
+![image](https://github.com/user-attachments/assets/c8567970-202d-49fd-a1dc-1b62f05c7922)
+
 
 
 
